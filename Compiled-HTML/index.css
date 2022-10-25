@@ -1305,6 +1305,10 @@ margin-left: 20px;
       padding-right: 118px;
       padding-left: 9px;
     }
+
+    .submitbtn{
+      padding: 18px 107px;
+    }
   }
 
 @media(max-width:1153px){
@@ -1314,7 +1318,7 @@ margin-left: 20px;
   }
 
   .submitbtn{
-    padding: 18px 94px;
+    padding: 18px 131px;
   }
 
   .Close{

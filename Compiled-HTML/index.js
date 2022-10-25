@@ -32,10 +32,17 @@
       popup.classList.toggle("open");
       body.classList.toggle("noscroll");
     })
-    btn5.addEventListener('submit', (e) =>{
-      e.preventDefault();
+
+    if(btn5.addEventListener('click',(e) => {
+    
       alert("Ваши данные отправлены, ожидайте ответа. В скором времени вам позвонят");
-    })
+      btn5.addEventListener('submit', (e) =>{
+        e.preventDefault();
+    
+      })
+    }));
+  
+   
 
    
 
